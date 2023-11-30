@@ -57,7 +57,7 @@
       border: solid 3px #ffd700;
       width: 250px;
       height: 300px;
-      background: url(/dist/img/Elias.jpeg);
+      background: url(./elias.jpeg);
       background-repeat: no-repeat;
       background-size: cover; }
   .menu .nav-item {
@@ -102,7 +102,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/landing-page.jpg);
+    background: url(./landing-page.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
