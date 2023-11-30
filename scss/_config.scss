@@ -3,9 +3,10 @@ $secondary-color: #ffd700;
 $show-home-image: true;
 $home-image: url(/dist/img/landing-page.jpg);
 $background-opacity: 0.9;
+$text-blue-color: #00a8e8;
 
 @mixin easeOut {
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-in;
 }
 
 @mixin background {

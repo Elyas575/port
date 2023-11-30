@@ -1,8 +1,14 @@
 // widescreen
 @include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 // desktop
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 // tablets small laptops
 @include mediaMd {
@@ -35,12 +41,29 @@
     height: 30vh;
     transform: translate3d(100%, 0, 0);
   }
+
+  .about-info {
+    grid-template-areas:
+      "biodetails"
+      "bio"
+      "job-container"
+      "job1"
+      "job2"
+      "job3"
+      "job4";
+
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // small
 @include mediaSm {
-  main h1 {
-    margin-top: 10vh;
+  .projects {
+    
+    grid-template-columns: 1fr;
   }
-
 }
