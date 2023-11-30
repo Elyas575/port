@@ -131,6 +131,7 @@ p {
 
   img {
     width: 100%;
+    height: 200px;
     border-radius: 1px;
     border: 1px solid white;
     &:hover {
@@ -171,6 +172,14 @@ footer {
   height: 60px;
   color: white;
   background-color: $primary-color;
+}
+
+.linkedin-details {
+  margin-top: 1em;
+}
+
+.linkedin-details:hover {
+  color: $text-blue-color;
 }
 
 @import "mobile";
